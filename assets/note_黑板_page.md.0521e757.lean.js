@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a,V as s}from"./chunks/framework.0cefc241.js";const b=JSON.parse('{"title":"黑板","description":"","frontmatter":{},"headers":[],"relativePath":"note/黑板/page.md","lastUpdated":1685067073000}'),o={name:"note/黑板/page.md"},r=s("",4),c=[r];function i(d,_,n,p,h,l){return a(),t("div",null,c)}const g=e(o,[["render",i]]);export{b as __pageData,g as default};
