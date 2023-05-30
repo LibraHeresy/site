@@ -1,1 +1,0 @@
-import{_ as a,c as e,o,V as t}from"./chunks/framework.0cefc241.js";const b=JSON.parse('{"title":"书架","description":"","frontmatter":{},"headers":[],"relativePath":"chat/书架.md","lastUpdated":1685454051000}'),r={name:"chat/书架.md"},d=t("",35),h=[d];function c(i,l,n,p,s,u){return o(),e("div",null,h)}const q=a(r,[["render",c]]);export{b as __pageData,q as default};
