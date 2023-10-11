@@ -1,0 +1,14 @@
+name: Merge template branch to main branch
+
+on:
+  push:
+    branches:
+      - template
+
+jobs:
+  merge-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Merge Branch
+        run: git checkout main
+          git merge template --strategy=theirs
