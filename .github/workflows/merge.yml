@@ -16,4 +16,4 @@ jobs:
       - name: CheckOut
         run: cd ./site && git pull origin main && git checkout main
       - name: Merge
-        run: cd ./site && git merge template -X diff-algorithm=theirs && git push
+        run: cd ./site && git merge template -X diff-algorithm=theirs && git push https://{secrets.PAT}@github.com/LibraHeresy/site.git
