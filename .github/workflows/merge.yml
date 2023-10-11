@@ -14,6 +14,6 @@ jobs:
       - name: Config
         run: git config --global use.email "1141614570@qq.com" && git config --global use.email "LibraHeresy"
       - name: CheckOut
-        run: git pull origin master && git checkout main
+        run: cd ./site && git pull origin master && git checkout main
       - name: Merge
-        run: git merge template --strategy=theirs && git push
+        run: cd ./site && git merge template --strategy=theirs && git push
