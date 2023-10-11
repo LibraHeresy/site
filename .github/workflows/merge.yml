@@ -10,13 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Clone
-        run: mkdir site
-          cd ./site
-          git clone https://github.com/LibraHeresy/site.git -b main
-          git clone https://github.com/LibraHeresy/site.git -b template
+        run: mkdir site 
+          cd ./site 
+          git clone https://github.com/LibraHeresy/site.git -b main 
+          git clone https://github.com/LibraHeresy/site.git -b template 
       - name: Merge
-        run: git config --global use.email "1141614570@qq.com"
-          git config --global use.email "LibraHeresy"
-          git checkout main
-          git merge template --strategy=theirs
-          git push
+        run: git config --global use.email "1141614570@qq.com" 
+          git config --global use.email "LibraHeresy" 
+          git checkout main 
+          git merge template --strategy=theirs 
+          git push 
