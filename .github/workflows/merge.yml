@@ -12,8 +12,8 @@ jobs:
       - name: Clone
         run: mkdir site;
           cd ./site;
-          git clone https://github.com/LibraHeresy/site.git -b main;
-          git clone https://github.com/LibraHeresy/site.git -b template;
+          git clone https://github.com/LibraHeresy/site.git;
+          git pull origin template;
       - name: Merge
         run: git config --global use.email "1141614570@qq.com";
           git config --global use.email "LibraHeresy";
